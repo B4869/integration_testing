@@ -1,5 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+// import { Product } from "../model/product";
+// import { promisePool } from "../config/db";
+// import { QueryError, PoolConnection } from "mysql2";
+// import { RowDataPacket } from "mysql2";
 const product_1 = require("../db/product");
 const getAll = (req, res) => {
     product_1.default

@@ -1,9 +1,9 @@
-import { QueryError, PoolConnection } from "mysql2";
-import { connection } from "../config/db";
-import { Product } from "../model/product";
+// import { QueryError, PoolConnection } from "mysql2";
+// import { connection } from "../config/db";
+// import { Product } from "../model/product";
 import { RowDataPacket } from "mysql2"; // Import type for rows returned from queries
 import { promisePool } from "../config/db";
-import { Request, Response } from "express"; // Import Request and Response from express
+// import { Request, Response } from "express"; // Import Request and Response from express
 
 const selectAll = async () => {
   try {

@@ -1,8 +1,8 @@
 import { Request, Response } from "express";
-import { Product } from "../model/product";
-import { promisePool } from "../config/db";
-import { QueryError, PoolConnection } from "mysql2";
-import { RowDataPacket } from "mysql2";
+// import { Product } from "../model/product";
+// import { promisePool } from "../config/db";
+// import { QueryError, PoolConnection } from "mysql2";
+// import { RowDataPacket } from "mysql2";
 import product from "../db/product";
 
 const getAll = (req: Request, res: Response) => {

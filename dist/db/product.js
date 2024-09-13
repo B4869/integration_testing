@@ -10,6 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const db_1 = require("../config/db");
+// import { Request, Response } from "express"; // Import Request and Response from express
 const selectAll = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const [rows] = yield db_1.promisePool.query("SELECT * FROM product");
