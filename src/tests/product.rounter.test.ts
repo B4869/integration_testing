@@ -98,7 +98,7 @@ describe("Product Router", () => {
     expect(response.body).toEqual({ message: "Invalid input data" });
   });
 
-  it("should insert a my infomation", async () => {
+  it("ทดสอบการ insert ข้อมูลนักศึกษา", async () => {
     const newProduct = { id: 6604101319, name: "ชัชวาลย์ อ้วนล่ำ", price: 100000000000000 };
     const response = await request(app).post("/products").send(newProduct);
     expect(response.status).toBe(201);
